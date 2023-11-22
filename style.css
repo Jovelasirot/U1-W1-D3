@@ -1,0 +1,85 @@
+@import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+
+
+*{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1b5e5e;
+}
+
+#logo{
+    object-fit: scale-down
+}
+
+main .tittle{
+    font-weight: 690;
+}
+
+main .tittle2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+main .list .tittleList{
+    font-weight: 900;
+}
+
+main .list2 .ol .li{
+    font-weight: 900;
+}
+
+a {
+    color: #107777;
+}
+
+.picdescription{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    color: #323636;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.feat {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.feat::before{
+    content: '';
+    width: 3px;
+    height: 25px;
+    display: block;
+    background-color: #FFD367;
+    position: absolute;
+    left: -100;
+}
+
+.featTIttle{
+    font-weight: bold;
+    color: #B13B03;
+    
+}
+
+.text{
+    padding: 1rem;
+}
+
+#focaccia{
+    border-radius: 15px;
+    -webkit-box-shadow: 13px 4px 14px -6px rgba(151,151,151,0.23); 
+    box-shadow: 13px 4px 14px -6px rgba(151,151,151,0.23);
+}
+
+
